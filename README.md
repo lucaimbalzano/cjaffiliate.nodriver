@@ -1,6 +1,22 @@
-# NODRIVER   
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cj_logo_green_rgb.png/640px-Cj_logo_green_rgb.png" width="200" alt="Nest Logo" /></a>
+</p>
 
-## [api documentation here!](https://ultrafunkamsterdam.github.io/nodriver)
+<h1 align="center">CJAFFILIATE Google Youtube Driver</h1>
+<p align="center">Google and Youtube automation.</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=FFF&style=for-the-badge" alt="Python Badge">
+    <img src="https://img.shields.io/badge/Puppeteer-40B5A4?logo=puppeteer&logoColor=fff&style=for-the-badge" alt="Puppeteer Badge">
+    <img src="https://img.shields.io/badge/ChromeDriver-4285F4?logo=google-chrome&logoColor=FFF&style=for-the-badge" alt="ChromeDriver Badge">
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge" alt="PostgreSQL Badge">
+</p>
+
+
+
+   
+
+## [📕 NODRIVER :: Api documentation here](https://ultrafunkamsterdam.github.io/nodriver)
 
 **This package provides next level webscraping and browser automation
 using a relatively simple interface.**
@@ -248,4 +264,13 @@ if __name__ == "__main__":
     # since asyncio.run never worked (for me)
     # i use
     uc.loop().run_until_complete(main())
+```
+
+
+## To run the application
+```
+$ pipenv shell
+$ source ./env/bin/activate
+$ export FLASK_APP=./src/flask_app.py
+$ flask run
 ```
