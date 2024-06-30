@@ -1,0 +1,1 @@
+BASE_SCREENSHOT_PATH = "/Users/lucaimbalzano/Documents/Workspaces/Private/cjaffiliate-workspace"
